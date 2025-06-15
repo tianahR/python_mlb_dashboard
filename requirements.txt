@@ -5,3 +5,4 @@ plotly
 seaborn
 dash
 gunicorn
+sqlalchemy

@@ -1,0 +1,750 @@
+Year,Division,Team,Wins,Losses
+1975,East,Boston Red Sox,95.0,65
+1975,East,Baltimore Orioles,90.0,69
+1975,East,New York Yankees,83.0,77
+1975,East,Cleveland Indians,79.0,80
+1975,East,Milwaukee Brewers,68.0,94
+1975,East,Detroit Tigers,57.0,102
+1975,West,Oakland Athletics,98.0,64
+1975,West,Kansas City Royals,91.0,71
+1975,West,Texas Rangers,79.0,83
+1975,West,Minnesota Twins,76.0,83
+1975,West,Chicago White Sox,75.0,86
+1975,West,California Angels,72.0,89
+1976,East,New York Yankees,97.0,62
+1976,East,Baltimore Orioles,88.0,74
+1976,East,Boston Red Sox,83.0,79
+1976,East,Cleveland Indians,81.0,78
+1976,East,Detroit Tigers,74.0,87
+1976,East,Milwaukee Brewers,66.0,95
+1976,West,Kansas City Royals,90.0,72
+1976,West,Oakland Athletics,87.0,74
+1976,West,Minnesota Twins,85.0,77
+1976,West,Texas Rangers,76.0,86
+1976,West,California Angels,76.0,86
+1976,West,Chicago White Sox,64.0,97
+1977,East,New York Yankees,100.0,62
+1977,East,Baltimore Orioles,97.0,64
+1977,East,Boston Red Sox,97.0,64
+1977,East,Detroit Tigers,74.0,88
+1977,East,Cleveland Indians,71.0,90
+1977,East,Milwaukee Brewers,67.0,95
+1977,East,Toronto Blue Jays,54.0,107
+1977,West,Kansas City Royals,102.0,60
+1977,West,Texas Rangers,94.0,68
+1977,West,Chicago White Sox,90.0,72
+1977,West,Minnesota Twins,84.0,77
+1977,West,California Angels,74.0,88
+1977,West,Seattle Mariners,64.0,98
+1977,West,Oakland Athletics,63.0,98
+1978,East,New York Yankees,100.0,63
+1978,East,Boston Red Sox,99.0,64
+1978,East,Milwaukee Brewers,93.0,69
+1978,East,Baltimore Orioles,90.0,71
+1978,East,Detroit Tigers,86.0,76
+1978,East,Cleveland Indians,69.0,90
+1978,East,Toronto Blue Jays,59.0,102
+1978,West,Kansas City Royals,92.0,70
+1978,West,Texas Rangers,87.0,75
+1978,West,California Angels,87.0,75
+1978,West,Minnesota Twins,73.0,89
+1978,West,Chicago White Sox,71.0,90
+1978,West,Oakland Athletics,69.0,93
+1978,West,Seattle Mariners,56.0,104
+1979,East,Baltimore Orioles,102.0,57
+1979,East,Milwaukee Brewers,95.0,66
+1979,East,Boston Red Sox,91.0,69
+1979,East,New York Yankees,89.0,71
+1979,East,Detroit Tigers,85.0,76
+1979,East,Cleveland Indians,81.0,80
+1979,East,Toronto Blue Jays,53.0,109
+1979,West,California Angels,88.0,74
+1979,West,Kansas City Royals,85.0,77
+1979,West,Texas Rangers,83.0,79
+1979,West,Minnesota Twins,82.0,80
+1979,West,Chicago White Sox,73.0,87
+1979,West,Seattle Mariners,67.0,95
+1979,West,Oakland Athletics,54.0,108
+1980,East,New York Yankees,103.0,59
+1980,East,Baltimore Orioles,100.0,62
+1980,East,Milwaukee Brewers,86.0,76
+1980,East,Boston Red Sox,83.0,77
+1980,East,Detroit Tigers,84.0,78
+1980,East,Cleveland Indians,79.0,81
+1980,East,Toronto Blue Jays,67.0,95
+1980,West,Kansas City Royals,97.0,65
+1980,West,Oakland Athletics,83.0,79
+1980,West,Minnesota Twins,77.0,84
+1980,West,Texas Rangers,76.0,85
+1980,West,Chicago White Sox,70.0,90
+1980,West,California Angels,65.0,95
+1980,West,Seattle Mariners,59.0,103
+1981,East,Milwaukee Brewers,,62
+1981,East,Milwaukee Brewers,,31
+1981,East,Baltimore Orioles,,59
+1981,East,Baltimore Orioles,,31
+1981,East,Baltimore Orioles,,28
+1981,East,New York Yankees,,59
+1981,East,New York Yankees,,34
+1981,East,New York Yankees,,25
+1981,East,Detroit Tigers,,60
+1981,East,Detroit Tigers,,31
+1981,East,Detroit Tigers,,29
+1981,East,Boston Red Sox,,59
+1981,East,Boston Red Sox,,30
+1981,East,Boston Red Sox,,29
+1981,East,Cleveland Indians,,52
+1981,East,Cleveland Indians,,26
+1981,East,Toronto Blue Jays,,37
+1981,East,Toronto Blue Jays,,16
+1981,East,Toronto Blue Jays,,21
+1981,West,Oakland Athletics,,64
+1981,West,Oakland Athletics,,37
+1981,West,Oakland Athletics,,27
+1981,West,Texas Rangers,,57
+1981,West,Texas Rangers,,33
+1981,West,Texas Rangers,,24
+1981,West,Chicago White Sox,,54
+1981,West,Chicago White Sox,,31
+1981,West,Chicago White Sox,,23
+1981,West,Kansas City Royals,,50
+1981,West,Kansas City Royals,,20
+1981,West,Kansas City Royals,,30
+1981,West,California Angels,,51
+1981,West,California Angels,,31
+1981,West,California Angels,,20
+1981,West,Seattle Mariners,,44
+1981,West,Seattle Mariners,,21
+1981,West,Seattle Mariners,,23
+1981,West,Minnesota Twins,,41
+1981,West,Minnesota Twins,,17
+1981,West,Minnesota Twins,,24
+1982,East,Milwaukee Brewers,95.0,67
+1982,East,Baltimore Orioles,94.0,68
+1982,East,Boston Red Sox,89.0,73
+1982,East,Detroit Tigers,83.0,79
+1982,East,New York Yankees,79.0,83
+1982,East,Toronto Blue Jays,78.0,84
+1982,East,Cleveland Indians,78.0,84
+1982,West,California Angels,93.0,69
+1982,West,Kansas City Royals,90.0,72
+1982,West,Chicago White Sox,87.0,75
+1982,West,Seattle Mariners,76.0,86
+1982,West,Oakland Athletics,68.0,94
+1982,West,Texas Rangers,64.0,98
+1982,West,Minnesota Twins,60.0,102
+1983,East,Baltimore Orioles,98.0,64
+1983,East,Detroit Tigers,92.0,70
+1983,East,New York Yankees,91.0,71
+1983,East,Toronto Blue Jays,89.0,73
+1983,East,Milwaukee Brewers,87.0,75
+1983,East,Boston Red Sox,78.0,84
+1983,East,Cleveland Indians,70.0,92
+1983,West,Chicago White Sox,99.0,63
+1983,West,Kansas City Royals,79.0,83
+1983,West,Texas Rangers,77.0,85
+1983,West,Oakland Athletics,74.0,88
+1983,West,California Angels,70.0,92
+1983,West,Minnesota Twins,70.0,92
+1983,West,Seattle Mariners,60.0,102
+1984,East,Detroit Tigers,104.0,58
+1984,East,Toronto Blue Jays,89.0,73
+1984,East,New York Yankees,87.0,75
+1984,East,Boston Red Sox,86.0,76
+1984,East,Baltimore Orioles,85.0,77
+1984,East,Cleveland Indians,75.0,87
+1984,East,Milwaukee Brewers,67.0,94
+1984,West,Kansas City Royals,84.0,78
+1984,West,California Angels,81.0,81
+1984,West,Minnesota Twins,81.0,81
+1984,West,Oakland Athletics,77.0,85
+1984,West,Seattle Mariners,74.0,88
+1984,West,Chicago White Sox,74.0,88
+1984,West,Texas Rangers,69.0,92
+1985,East,Toronto Blue Jays,99.0,62
+1985,East,New York Yankees,97.0,64
+1985,East,Detroit Tigers,84.0,77
+1985,East,Baltimore Orioles,83.0,78
+1985,East,Boston Red Sox,81.0,81
+1985,East,Milwaukee Brewers,71.0,90
+1985,East,Cleveland Indians,60.0,102
+1985,West,Kansas City Royals,91.0,71
+1985,West,California Angels,90.0,72
+1985,West,Chicago White Sox,85.0,77
+1985,West,Minnesota Twins,77.0,85
+1985,West,Oakland Athletics,77.0,85
+1985,West,Seattle Mariners,74.0,88
+1985,West,Texas Rangers,62.0,99
+1986,East,Boston Red Sox,95.0,66
+1986,East,New York Yankees,90.0,72
+1986,East,Detroit Tigers,87.0,75
+1986,East,Toronto Blue Jays,86.0,76
+1986,East,Cleveland Indians,84.0,78
+1986,East,Milwaukee Brewers,77.0,84
+1986,East,Baltimore Orioles,73.0,89
+1986,West,California Angels,92.0,70
+1986,West,Texas Rangers,87.0,75
+1986,West,Kansas City Royals,76.0,86
+1986,West,Oakland Athletics,76.0,86
+1986,West,Chicago White Sox,72.0,90
+1986,West,Minnesota Twins,71.0,91
+1986,West,Seattle Mariners,67.0,95
+1987,East,Detroit Tigers,98.0,64
+1987,East,Toronto Blue Jays,96.0,66
+1987,East,Milwaukee Brewers,91.0,71
+1987,East,New York Yankees,89.0,73
+1987,East,Boston Red Sox,78.0,84
+1987,East,Baltimore Orioles,67.0,95
+1987,East,Cleveland Indians,61.0,101
+1987,West,Minnesota Twins,85.0,77
+1987,West,Kansas City Royals,83.0,79
+1987,West,Oakland Athletics,81.0,81
+1987,West,Seattle Mariners,78.0,84
+1987,West,Chicago White Sox,77.0,85
+1987,West,Texas Rangers,75.0,87
+1987,West,California Angels,75.0,87
+1988,East,Boston Red Sox,89.0,73
+1988,East,Detroit Tigers,88.0,74
+1988,East,Toronto Blue Jays,87.0,75
+1988,East,Milwaukee Brewers,87.0,75
+1988,East,New York Yankees,85.0,76
+1988,East,Cleveland Indians,78.0,84
+1988,East,Baltimore Orioles,54.0,107
+1988,West,Oakland Athletics,104.0,58
+1988,West,Minnesota Twins,91.0,71
+1988,West,Kansas City Royals,84.0,77
+1988,West,California Angels,75.0,87
+1988,West,Chicago White Sox,71.0,90
+1988,West,Texas Rangers,70.0,91
+1988,West,Seattle Mariners,68.0,93
+1989,East,Toronto Blue Jays,89.0,73
+1989,East,Baltimore Orioles,87.0,75
+1989,East,Boston Red Sox,83.0,79
+1989,East,Milwaukee Brewers,81.0,81
+1989,East,New York Yankees,74.0,87
+1989,East,Cleveland Indians,73.0,89
+1989,East,Detroit Tigers,59.0,103
+1989,West,Oakland Athletics,99.0,63
+1989,West,Kansas City Royals,92.0,70
+1989,West,California Angels,91.0,71
+1989,West,Texas Rangers,83.0,79
+1989,West,Minnesota Twins,80.0,82
+1989,West,Seattle Mariners,73.0,89
+1989,West,Chicago White Sox,69.0,92
+1990,East,Boston Red Sox,88.0,74
+1990,East,Toronto Blue Jays,86.0,76
+1990,East,Detroit Tigers,79.0,83
+1990,East,Cleveland Indians,77.0,85
+1990,East,Baltimore Orioles,76.0,85
+1990,East,Milwaukee Brewers,74.0,88
+1990,East,New York Yankees,67.0,95
+1990,West,Oakland Athletics,103.0,59
+1990,West,Chicago White Sox,94.0,68
+1990,West,Texas Rangers,83.0,79
+1990,West,California Angels,80.0,82
+1990,West,Seattle Mariners,77.0,85
+1990,West,Kansas City Royals,75.0,86
+1990,West,Minnesota Twins,74.0,88
+1991,East,Toronto Blue Jays,91.0,71
+1991,East,Detroit Tigers,84.0,78
+1991,East,Boston Red Sox,84.0,78
+1991,East,Milwaukee Brewers,83.0,79
+1991,East,New York Yankees,71.0,91
+1991,East,Baltimore Orioles,67.0,95
+1991,East,Cleveland Indians,57.0,105
+1991,West,Minnesota Twins,95.0,67
+1991,West,Chicago White Sox,87.0,75
+1991,West,Texas Rangers,85.0,77
+1991,West,Oakland Athletics,84.0,78
+1991,West,Seattle Mariners,83.0,79
+1991,West,Kansas City Royals,82.0,80
+1991,West,California Angels,81.0,81
+1992,East,Toronto Blue Jays,96.0,66
+1992,East,Milwaukee Brewers,92.0,70
+1992,East,Baltimore Orioles,89.0,73
+1992,East,New York Yankees,76.0,86
+1992,East,Cleveland indians,76.0,86
+1992,East,Detroit Tigers,75.0,87
+1992,East,Boston Red Sox,73.0,89
+1992,West,Oakland Athletics,96.0,66
+1992,West,Minnesota Twins,90.0,72
+1992,West,Chicago White Sox,86.0,76
+1992,West,Texas Rangers,77.0,85
+1992,West,Kansas City Royals,72.0,90
+1992,West,California Angels,72.0,90
+1992,West,Seattle Mariners,64.0,98
+1993,East,Toronto Blue Jays,95.0,67
+1993,East,New York Yankees,88.0,74
+1993,East,Baltimore Orioles,85.0,77
+1993,East,Detroit Tigers,85.0,77
+1993,East,Boston Red Sox,80.0,82
+1993,East,Cleveland Indians,76.0,86
+1993,East,Milwaukee Brewers,69.0,93
+1993,West,Chicago White Sox,94.0,68
+1993,West,Texas Rangers,86.0,76
+1993,West,Kansas City Royals,84.0,78
+1993,West,Seattle Mariners,82.0,80
+1993,West,California Angels,71.0,91
+1993,West,Minnesota Twins,71.0,91
+1993,West,Oakland Athletics,68.0,94
+1994,East,New York Yankees,70.0,43
+1994,East,Baltimore Orioles,63.0,49
+1994,East,Toronto Blue Jays,55.0,60
+1994,East,Boston Red Sox,54.0,61
+1994,East,Detroit Tigers,53.0,62
+1994,Central,Chicago White Sox,67.0,46
+1994,Central,Cleveland Indians,66.0,47
+1994,Central,Kansas City Royals,64.0,51
+1994,Central,Minnesota Twins,53.0,60
+1994,Central,Milwaukee Brewers,53.0,62
+1994,West,Texas Rangers,52.0,62
+1994,West,Oakland Athletics,51.0,63
+1994,West,Seattle Mariners,49.0,63
+1994,West,California Angels,47.0,68
+1995,East,Boston Red Sox,86.0,58
+1995,East,New York Yankees,79.0,65
+1995,East,Baltimore Orioles,71.0,73
+1995,East,Detroit Tigers,60.0,84
+1995,East,Toronto Blue Jays,56.0,88
+1995,Central,Cleveland Indians,100.0,44
+1995,Central,Kansas City Royals,70.0,74
+1995,Central,Chicago White Sox,68.0,76
+1995,Central,Milwaukee Brewers,65.0,79
+1995,Central,Minnesota Twins,56.0,88
+1995,West,Seattle Mariners,79.0,66
+1995,West,California Angels,78.0,67
+1995,West,Texas Rangers,74.0,70
+1995,West,Oakland Athletics,67.0,77
+1996,East,New York Yankees,92.0,70
+1996,East,Baltimore Orioles,88.0,74
+1996,East,Boston Red Sox,85.0,77
+1996,East,Toronto Blue Jays,74.0,88
+1996,East,Detroit Tigers,53.0,109
+1996,Central,Cleveland Indians,99.0,62
+1996,Central,Chicago White Sox,85.0,77
+1996,Central,Milwaukee Brewers,80.0,82
+1996,Central,Minnesota Twins,78.0,84
+1996,Central,Kansas City Royals,75.0,86
+1996,West,Texas Rangers,90.0,72
+1996,West,Seattle Mariners,85.0,76
+1996,West,Oakland Athletics,78.0,84
+1996,West,California Angels,70.0,91
+1997,East,Baltimore Orioles,98.0,64
+1997,East,New York Yankees,96.0,66
+1997,East,Detroit Tigers,79.0,83
+1997,East,Boston Red Sox,78.0,84
+1997,East,Toronto Blue Jays,76.0,86
+1997,Central,Cleveland Indians,86.0,75
+1997,Central,Chicago White Sox,80.0,81
+1997,Central,Milwaukee Brewers,78.0,83
+1997,Central,Minnesota Twins,68.0,94
+1997,Central,Kansas City Royals,67.0,94
+1997,West,Seattle Mariners,90.0,72
+1997,West,Anaheim Angels,84.0,78
+1997,West,Texas Rangers,77.0,85
+1997,West,Oakland Athletics,65.0,97
+1998,East,New York Yankees,114.0,48
+1998,East,Boston Red Sox,92.0,70
+1998,East,Toronto Blue Jays,88.0,74
+1998,East,Baltimore Orioles,79.0,83
+1998,East,Tampa Bay Devil Rays,63.0,99
+1998,Central,Cleveland Indians,89.0,73
+1998,Central,Chicago White Sox,80.0,82
+1998,Central,Kansas City Royals,72.0,89
+1998,Central,Minnesota Twins,70.0,92
+1998,Central,Detroit Tigers,65.0,97
+1998,West,Texas Rangers,88.0,74
+1998,West,Anaheim Angels,85.0,77
+1998,West,Seattle Mariners,76.0,85
+1998,West,Oakland Athletics,74.0,88
+1999,East,New York Yankees,98.0,64
+1999,East,Boston Red Sox,94.0,68
+1999,East,Toronto Blue Jays,84.0,78
+1999,East,Baltimore Orioles,78.0,84
+1999,East,Tampa Bay Devil Rays,69.0,93
+1999,Central,Cleveland Indians,97.0,65
+1999,Central,Chicago White Sox,75.0,86
+1999,Central,Detroit Tigers,69.0,92
+1999,Central,Kansas City Royals,64.0,97
+1999,Central,Minnesota Twins,63.0,97
+1999,West,Texas Rangers,95.0,67
+1999,West,Oakland Athletics,87.0,75
+1999,West,Seattle Mariners,79.0,83
+1999,West,Anaheim Angels,70.0,92
+2000,East,New York Yankees,87.0,74
+2000,East,Boston Red Sox,85.0,77
+2000,East,Toronto Blue Jays,83.0,79
+2000,East,Baltimore Orioles,74.0,88
+2000,East,Tampa Bay Devil Rays,69.0,92
+2000,Central,Chicago White Sox,95.0,67
+2000,Central,Cleveland Indians,90.0,72
+2000,Central,Detroit Tigers,79.0,83
+2000,Central,Kansas City Royals,77.0,85
+2000,Central,Minnesota Twins,69.0,93
+2000,West,Oakland Athletics,91.0,70
+2000,West,Seattle Mariners,91.0,71
+2000,West,Anaheim Angels,82.0,80
+2000,West,Texas Rangers,71.0,91
+2001,East,New York Yankees,95.0,65
+2001,East,Boston Red Sox,82.0,79
+2001,East,Toronto Blue Jays,80.0,82
+2001,East,Baltimore Orioles,63.0,98
+2001,East,Tampa Bay Devil Rays,62.0,100
+2001,Central,Cleveland Indians,91.0,71
+2001,Central,Minnesota Twins,85.0,77
+2001,Central,Chicago White Sox,83.0,79
+2001,Central,Detroit Tigers,66.0,96
+2001,Central,Kansas City Royals,65.0,97
+2001,West,Seattle Mariners,116.0,46
+2001,West,Oakland Athletics,102.0,60
+2001,West,Anaheim Angels,75.0,87
+2001,West,Texas Rangers,73.0,89
+2002,East,New York Yankees,103.0,58
+2002,East,Boston Red Sox,93.0,69
+2002,East,Toronto Blue Jays,78.0,84
+2002,East,Baltimore Orioles,67.0,95
+2002,East,Tampa Bay Devil Rays,55.0,106
+2002,Central,Minnesota Twins,94.0,67
+2002,Central,Chicago White Sox,81.0,81
+2002,Central,Cleveland Indians,74.0,88
+2002,Central,Kansas City Royals,62.0,100
+2002,Central,Detroit Tigers,55.0,106
+2002,West,Oakland Athletics,103.0,59
+2002,West,Anaheim Angels,99.0,63
+2002,West,Seattle Mariners,93.0,69
+2002,West,Texas Rangers,72.0,90
+2003,East,New York Yankees,101.0,61
+2003,East,Boston Red Sox,95.0,67
+2003,East,Toronto Blue Jays,86.0,76
+2003,East,Baltimore Orioles,71.0,91
+2003,East,Tampa Bay Devil Rays,63.0,99
+2003,Central,Minnesota Twins,90.0,72
+2003,Central,Chicago White Sox,86.0,76
+2003,Central,Kansas City Royals,83.0,79
+2003,Central,Cleveland Indians,68.0,94
+2003,Central,Detroit Tigers,43.0,119
+2003,West,Oakland Athletics,96.0,66
+2003,West,Seattle Mariners,93.0,69
+2003,West,Anaheim Angels,77.0,85
+2003,West,Texas Rangers,71.0,91
+2004,East,New York Yankees,101.0,61
+2004,East,Boston Red Sox,98.0,64
+2004,East,Baltimore Orioles,78.0,84
+2004,East,Tampa Bay Devil Rays,70.0,91
+2004,East,Toronto Blue Jays,67.0,94
+2004,Central,Minnesota Twins,92.0,70
+2004,Central,Chicago White Sox,83.0,79
+2004,Central,Cleveland Indians,80.0,82
+2004,Central,Detroit Tigers,72.0,90
+2004,Central,Kansas City Royals,58.0,104
+2004,West,Anaheim Angels,92.0,70
+2004,West,Oakland Athletics,91.0,71
+2004,West,Texas Rangers,89.0,73
+2004,West,Seattle Mariners,63.0,99
+2005,East,New York Yankees,95.0,67
+2005,East,Boston Red Sox,95.0,67
+2005,East,Toronto Blue Jays,80.0,82
+2005,East,Baltimore Orioles,74.0,88
+2005,East,Tampa Bay Devil Rays,67.0,95
+2005,Central,Chicago White Sox,99.0,63
+2005,Central,Cleveland Indians,93.0,69
+2005,Central,Minnesota Twins,83.0,79
+2005,Central,Detroit Tigers,71.0,91
+2005,Central,Kansas City Royals,56.0,106
+2005,West,Los Angeles Angels of Anaheim,95.0,67
+2005,West,Oakland Athletics,88.0,74
+2005,West,Texas Rangers,79.0,83
+2005,West,Seattle Mariners,69.0,93
+2006,East,New York Yankees,97.0,65
+2006,East,Toronto Blue Jays,87.0,75
+2006,East,Boston Red Sox,86.0,76
+2006,East,Baltimore Orioles,70.0,92
+2006,East,Tampa Bay Devil Rays,61.0,101
+2006,Central,Minnesota Twins,96.0,66
+2006,Central,Detroit Tigers,95.0,67
+2006,Central,Chicago White Sox,90.0,72
+2006,Central,Cleveland Indians,78.0,84
+2006,Central,Kansas City Royals,62.0,100
+2006,West,Oakland Athletics,93.0,69
+2006,West,Los Angeles Angels,89.0,73
+2006,West,Texas Rangers,80.0,82
+2006,West,Seattle Mariners,78.0,84
+2007,East,Boston Red Sox,96.0,66
+2007,East,New York Yankees,94.0,68
+2007,East,Toronto Blue Jays,83.0,79
+2007,East,Baltimore Orioles,69.0,93
+2007,East,Tampa Bay Devil Rays,66.0,96
+2007,Central,Cleveland Indians,96.0,66
+2007,Central,Detroit Tigers,88.0,74
+2007,Central,Minnesota Twins,79.0,83
+2007,Central,Chicago White Sox,72.0,90
+2007,Central,Kansas City Royals,69.0,93
+2007,West,Los Angeles Angels,94.0,68
+2007,West,Seattle Mariners,88.0,74
+2007,West,Oakland Athletics,76.0,86
+2007,West,Texas Rangers,75.0,87
+2008,East,Tampa Bay Rays,97.0,65
+2008,East,Boston Red Sox,95.0,67
+2008,East,New York Yankees,89.0,73
+2008,East,Toronto Blue Jays,86.0,76
+2008,East,Baltimore Orioles,68.0,93
+2008,Central,Chicago White Sox,89.0,74
+2008,Central,Minnesota Twins,88.0,75
+2008,Central,Cleveland Indians,81.0,81
+2008,Central,Kansas City Royals,75.0,87
+2008,Central,Detroit Tigers,74.0,88
+2008,West,Los Angeles Angels,100.0,62
+2008,West,Texas Rangers,79.0,83
+2008,West,Oakland Athletics,75.0,86
+2008,West,Seattle Mariners,61.0,101
+2009,East,New York Yankees,103.0,59
+2009,East,Boston Red Sox,95.0,67
+2009,East,Tampa Bay Rays,84.0,78
+2009,East,Toronto Blue Jays,75.0,87
+2009,East,Baltimore Orioles,64.0,98
+2009,Central,Minnesota Twins,87.0,76
+2009,Central,Detroit Tigers,86.0,77
+2009,Central,Chicago White Sox,79.0,83
+2009,Central,Cleveland Indians,65.0,97
+2009,Central,Kansas City Royals,65.0,97
+2009,West,Los Angeles Angels,97.0,65
+2009,West,Texas Rangers,87.0,75
+2009,West,Seattle Mariners,85.0,77
+2009,West,Oakland Athletics,75.0,87
+2010,East,Tampa Bay Rays,96.0,66
+2010,East,New York Yankees,95.0,67
+2010,East,Boston Red Sox,89.0,73
+2010,East,Toronto Blue Jays,85.0,77
+2010,East,Baltimore Orioles,66.0,96
+2010,Central,Minnesota Twins,94.0,68
+2010,Central,Chicago White Sox,88.0,74
+2010,Central,Detroit Tigers,81.0,81
+2010,Central,Cleveland Indians,69.0,93
+2010,Central,Kansas City Royals,67.0,95
+2010,West,Texas Rangers,90.0,72
+2010,West,Oakland Athletics,81.0,81
+2010,West,Los Angeles Angels,80.0,82
+2010,West,Seattle Mariners,61.0,101
+2011,East,New York Yankees,97.0,65
+2011,East,Tampa Bay Rays,91.0,71
+2011,East,Boston Red Sox,90.0,72
+2011,East,Toronto Blue Jays,81.0,81
+2011,East,Baltimore Orioles,69.0,93
+2011,Central,Detroit Tigers,95.0,67
+2011,Central,Cleveland Indians,80.0,82
+2011,Central,Chicago White Sox,79.0,83
+2011,Central,Kansas City Royals,71.0,91
+2011,Central,Minnesota Twins,63.0,99
+2011,West,Texas Rangers,96.0,66
+2011,West,Los Angeles Angels,86.0,76
+2011,West,Oakland Athletics,74.0,88
+2011,West,Seattle Mariners,67.0,95
+2012,East,New York Yankees,95.0,67
+2012,East,Baltimore Orioles,93.0,69
+2012,East,Tampa Bay Rays,90.0,72
+2012,East,Toronto Blue Jays,73.0,89
+2012,East,Boston Red Sox,69.0,93
+2012,Central,Detroit Tigers,88.0,74
+2012,Central,Chicago White Sox,85.0,77
+2012,Central,Kansas City Royals,72.0,90
+2012,Central,Cleveland Indians,68.0,94
+2012,Central,Minnesota Twins,66.0,96
+2012,West,Oakland Athletics,94.0,68
+2012,West,Texas Rangers,93.0,69
+2012,West,Los Angeles Angels,89.0,73
+2012,West,Seattle Mariners,75.0,87
+2013,East,Boston Red Sox,97.0,65
+2013,East,Tampa Bay Rays,92.0,71
+2013,East,Baltimore Orioles,85.0,77
+2013,East,New York Yankees,85.0,77
+2013,East,Toronto Blue Jays,74.0,88
+2013,Central,Detroit Tigers,93.0,69
+2013,Central,Cleveland Indians,92.0,70
+2013,Central,Kansas City Royals,86.0,76
+2013,Central,Minnesota Twins,66.0,96
+2013,Central,Chicago White Sox,63.0,99
+2013,West,Oakland Athletics,96.0,66
+2013,West,Texas Rangers,91.0,72
+2013,West,Los Angeles Angels,78.0,84
+2013,West,Seattle Mariners,71.0,91
+2013,West,Houston Astros,51.0,111
+2014,East,Baltimore Orioles,96.0,66
+2014,East,New York Yankees,84.0,78
+2014,East,Toronto Blue Jays,83.0,79
+2014,East,Tampa Bay Rays,77.0,85
+2014,East,Boston Red Sox,71.0,91
+2014,Central,Detroit Tigers,90.0,72
+2014,Central,Kansas City Royals,89.0,73
+2014,Central,Cleveland Indians,85.0,77
+2014,Central,Chicago White Sox,73.0,89
+2014,Central,Minnesota Twins,70.0,92
+2014,West,Los Angeles Angels,98.0,64
+2014,West,Oakland Athletics,88.0,74
+2014,West,Seattle Mariners,87.0,75
+2014,West,Houston Astros,70.0,92
+2014,West,Texas Rangers,67.0,95
+2015,East,Toronto Blue Jays,93.0,69
+2015,East,New York Yankees,87.0,75
+2015,East,Baltimore Orioles,81.0,81
+2015,East,Tampa Bay Rays,80.0,82
+2015,East,Boston Red Sox,78.0,84
+2015,Central,Kansas City Royals,95.0,67
+2015,Central,Minnesota Twins,83.0,79
+2015,Central,Cleveland Indians,81.0,80
+2015,Central,Chicago White Sox,76.0,86
+2015,Central,Detroit Tigers,74.0,87
+2015,West,Texas Rangers,88.0,74
+2015,West,Houston Astros,86.0,76
+2015,West,Los Angeles Angels,85.0,77
+2015,West,Seattle Mariners,76.0,86
+2015,West,Oakland Athletics,68.0,94
+2016,East,Boston Red Sox,93.0,69
+2016,East,Baltimore Orioles,89.0,73
+2016,East,Toronto Blue Jays,89.0,73
+2016,East,New York Yankees,84.0,78
+2016,East,Tampa Bay Rays,68.0,94
+2016,Central,Cleveland Indians,94.0,67
+2016,Central,Detroit Tigers,86.0,75
+2016,Central,Kansas City Royals,81.0,81
+2016,Central,Chicago White Sox,78.0,84
+2016,Central,Minnesota Twins,59.0,103
+2016,West,Texas Rangers,95.0,67
+2016,West,Seattle Mariners,86.0,76
+2016,West,Houston Astros,84.0,78
+2016,West,Los Angeles Angels,74.0,88
+2016,West,Oakland Athletics,69.0,93
+2017,East,Boston Red Sox,93.0,69
+2017,East,New York Yankees,91.0,71
+2017,East,Tampa Bay Rays,80.0,82
+2017,East,Toronto Blue Jays,76.0,86
+2017,East,Baltimore Orioles,75.0,87
+2017,Central,Cleveland Indians,102.0,60
+2017,Central,Minnesota Twins,85.0,77
+2017,Central,Kansas City Royals,80.0,82
+2017,Central,Chicago White Sox,67.0,95
+2017,Central,Detroit Tigers,64.0,98
+2017,West,Houston Astros,101.0,61
+2017,West,Los Angeles Angels,80.0,82
+2017,West,Seattle Mariners,78.0,84
+2017,West,Texas Rangers,78.0,84
+2017,West,Oakland Athletics,75.0,87
+2018,East,Boston Red Sox,108.0,54
+2018,East,New York Yankees,100.0,62
+2018,East,Tampa Bay Rays,90.0,72
+2018,East,Toronto Blue Jays,73.0,89
+2018,East,Baltimore Orioles,47.0,115
+2018,Central,Cleveland Indians,91.0,71
+2018,Central,Minnesota Twins,78.0,84
+2018,Central,Detroit Tigers,64.0,98
+2018,Central,Chicago White Sox,62.0,100
+2018,Central,Kansas City Royals,58.0,104
+2018,West,Houston Astros,103.0,59
+2018,West,Oakland Athletics,97.0,65
+2018,West,Seattle Mariners,89.0,73
+2018,West,Los Angeles Angels,80.0,82
+2018,West,Texas Rangers,67.0,95
+2019,East,New York Yankees,103.0,59
+2019,East,Tampa Bay Rays,96.0,66
+2019,East,Boston Red Sox,84.0,78
+2019,East,Toronto Blue Jays,67.0,95
+2019,East,Baltimore Orioles,54.0,108
+2019,Central,Minnesota Twins,101.0,61
+2019,Central,Cleveland Indians,93.0,69
+2019,Central,Chicago White Sox,72.0,89
+2019,Central,Kansas City Royals,59.0,103
+2019,Central,Detroit Tigers,47.0,114
+2019,West,Houston Astros,107.0,55
+2019,West,Oakland Athletics,97.0,65
+2019,West,Texas Rangers,78.0,84
+2019,West,Los Angeles Angels,72.0,90
+2019,West,Seattle Mariners,68.0,94
+2020,East,Tampa Bay Rays,40.0,20
+2020,East,New York Yankees,33.0,27
+2020,East,Toronto Blue Jays,32.0,28
+2020,East,Baltimore Orioles,25.0,35
+2020,East,Boston Red Sox,24.0,36
+2020,Central,Minnesota Twins,36.0,24
+2020,Central,Chicago White Sox,35.0,25
+2020,Central,Cleveland Indians,35.0,25
+2020,Central,Kansas City Royals,26.0,34
+2020,Central,Detroit Tigers,23.0,35
+2020,West,Oakland Athletics,36.0,24
+2020,West,Houston Astros,29.0,31
+2020,West,Seattle Mariners,27.0,33
+2020,West,Los Angeles Angels,26.0,34
+2020,West,Texas Rangers,22.0,38
+2021,East,Tampa Bay Rays,100.0,62
+2021,East,Boston Red Sox,92.0,70
+2021,East,New York Yankees,92.0,70
+2021,East,Toronto Blue Jays,91.0,71
+2021,East,Baltimore Orioles,52.0,110
+2021,Central,Chicago White Sox,93.0,69
+2021,Central,Cleveland Indians,80.0,82
+2021,Central,Detroit Tigers,77.0,85
+2021,Central,Kansas City Royals,74.0,88
+2021,Central,Minnesota Twins,73.0,89
+2021,West,Houston Astros,95.0,67
+2021,West,Seattle Mariners,90.0,72
+2021,West,Oakland Athletics,86.0,76
+2021,West,Los Angeles Angels,77.0,85
+2021,West,Texas Rangers,60.0,102
+2022,East,New York Yankees,99.0,63
+2022,East,Toronto Blue Jays,92.0,70
+2022,East,Tampa Bay Rays,86.0,76
+2022,East,Baltimore Orioles,83.0,79
+2022,East,Boston Red Sox,78.0,84
+2022,Central,Cleveland Guardians,92.0,70
+2022,Central,Chicago White Sox,81.0,81
+2022,Central,Minnesota Twins,78.0,84
+2022,Central,Detroit Tigers,66.0,96
+2022,Central,Kansas City Royals,65.0,97
+2022,West,Houston Astros,106.0,56
+2022,West,Seattle Mariners,90.0,72
+2022,West,Los Angeles Angels,73.0,89
+2022,West,Texas Rangers,68.0,94
+2022,West,Oakland Athletics,60.0,102
+2023,East,Baltimore Orioles,101.0,61
+2023,East,Tampa Bay Rays,99.0,63
+2023,East,Toronto Blue Jays,89.0,73
+2023,East,New York Yankees,82.0,80
+2023,East,Boston Red Sox,78.0,84
+2023,Central,Minnesota Twins,87.0,75
+2023,Central,Detroit Tigers,78.0,84
+2023,Central,Cleveland Guardians,76.0,86
+2023,Central,Chicago White Sox,61.0,101
+2023,Central,Kansas City Royals,56.0,106
+2023,West,Houston Astros,90.0,72
+2023,West,Texas Rangers,90.0,72
+2023,West,Seattle Mariners,88.0,74
+2023,West,Los Angeles Angels,73.0,89
+2023,West,Oakland Athletics,50.0,112
+2024,East,New York Yankees,94.0,68
+2024,East,Baltimore Orioles,91.0,71
+2024,East,Boston Red Sox,81.0,81
+2024,East,Tampa Bay Rays,80.0,82
+2024,East,Toronto Blue Jays,74.0,88
+2024,Central,Cleveland Guardians,92.0,69
+2024,Central,Kansas City Royals,86.0,76
+2024,Central,Detroit Tigers,86.0,76
+2024,Central,Minnesota Twins,82.0,80
+2024,Central,Chicago White Sox,41.0,121
+2024,West,Houston Astros,88.0,73
+2024,West,Seattle Mariners,85.0,77
+2024,West,Texas Rangers,78.0,84
+2024,West,Oakland Athletics,69.0,93
+2024,West,Los Angeles Angels,63.0,99
+2025,East,New York Yankees,42.0,25
+2025,East,Toronto Blue Jays,38.0,30
+2025,East,Tampa Bay Rays,36.0,32
+2025,East,Boston Red Sox,34.0,36
+2025,East,Baltimore Orioles,27.0,40
+2025,Central,Detroit Tigers,45.0,25
+2025,Central,Minnesota Twins,36.0,32
+2025,Central,Cleveland Guardians,35.0,32
+2025,Central,Kansas City Royals,34.0,35
+2025,Central,Chicago White Sox,23.0,46
+2025,West,Houston Astros,38.0,30
+2025,West,Los Angeles Angels,33.0,34
+2025,West,Seattle Mariners,33.0,34
+2025,West,Texas Rangers,33.0,36
+2025,West,Athletics,26.0,44
