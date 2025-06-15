@@ -1,0 +1,54 @@
+# PYTHON_MLB_DASHBOARD - Web Scraping and Dashboard Project
+
+## ABOUT THE PROJECT 
+A Python program that retrieves data from BASEBALL ALMANAC website : https://www.baseball-almanac.com/yearmenu.shtml  and display the results in an interactive dashboard.
+The website contains the History of Major League Baseball in a Yearly Format. 
+
+<p>There are 289 pages to scrape. Among them, we have :
+    The History of the American League From 1901 to 2025,
+    The History of the National League From 1876 to 2025,
+    The History of the Federal League From 1914 to 1915,
+    The History of the Players League From 1890 - 1890,
+    The History of the Union Association From 1884 - 1884,
+    The History of the American Association From 1882 - 1891
+</p>
+<p>On EACH page, there are :
+    League Leader in Hitting Statistics (Top 25),
+    League Leader in Pitching Statistics (Top 25),
+    Final Standings for every Team,
+    Links to every Team Roster,
+    Team Leader for Hitting & Pitching Stats,
+    Retirements / Final Season Played Lists,
+    Rookies / First Season Played Lists,
+    Links to Seasonal Events
+  </p>
+
+<b>For this project</b> - I retrieve data from the history of the American League from <b>1975 to 2025</b>
+
+The project is divided into :
+
+- ### Web Scraping program : 
+    <p>To scrape data from the website, I use <b>Selenium</b>. and saved the raw data into CSV format for each dataset :
+        League Leader in Hitting Statistics (Top 25),
+        League Leader in Pitching Statistics (Top 25),
+        Final Standings for every Team,
+        Team Leader for Hitting Stats,
+        Team Leader for Pitching Stats</p>
+    <p>For the analysis and data visualization, I use 3 datasets : League Leader in Hitting Statistics (Top 25), League Leader in Pitching Statistics (Top 25), Final Standings for every Team</p>
+    
+- ### Database import program :  
+    <p>Import the CSV files into a <b>SQLite database </b>.</p>
+    <p>Before storing the data in a SQLite database, with each CSV file as a separate table, I clean and transform the raw data into a structured format.</p>
+    
+- ### Database query program :  
+    Query the database via command line.
+  
+- ### Dashboard program : 
+    Build an interactive dashboard using <b>Dash</b> to display the insights.
+
+## TECH STACK USED :
+  <p>Python, SQLITE, Selenium, Numpy, Pandas, Matplotlib, plotly, Seaborn, Dash</p>
+    
+
+  
+      
