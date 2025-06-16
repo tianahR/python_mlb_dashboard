@@ -29,6 +29,7 @@ The website contains the History of Major League Baseball in a Yearly Format.
 The project is divided into :
 
 - ### Web Scraping program :
+
     <p>To scrape data from the website, I use <b>Selenium</b>. and saved the raw data into CSV format for each dataset :
         League Leader in Hitting Statistics (Top 25),
         League Leader in Pitching Statistics (Top 25),
@@ -38,6 +39,7 @@ The project is divided into :
     <p>For the analysis and data visualization, I use 3 datasets : League Leader in Hitting Statistics (Top 25), League Leader in Pitching Statistics (Top 25), Final Standings for every Team</p>
 
 - ### Database import program :
+
     <p>Import the CSV files into a <b>SQLite database </b>.</p>
     <p>Before storing the data in a SQLite database, with each CSV file as a separate table, I clean and transform the raw data into a structured format.</p>
 
@@ -49,3 +51,43 @@ The project is divided into :
 ## TECH STACK USED :
 
   <p>Python, SQLITE, Selenium, Numpy, Pandas, Matplotlib, Plotly, Seaborn, Dash</p>
+
+## STEPS TO RUN THE PROGRAM :
+
+- Clone the program
+- Create the virtual environment
+    <p>Windows users enter the following commands:
+    python -m venv .venv
+    source .venv/Scripts/activate
+    code .
+
+  Mac and Linux users enter the following commands:
+  python3 -m venv .venv
+  source .venv/bin/activate
+  code .</p>
+
+  Once your virtual environment is activated, you see .venv as part of your terminal prompt.
+
+  Important: Open the VSCode command pallette (ctrl-shift P). In the `Python: Select Interpreter` option, choose the one with `.venv`. You can use the search box at the top to find it. If you have any terminal sessions open, close them, and open a new one. You will see `(.venv)` in your terminal prompt.
+
+- From the VSCode terminal session, enter the command:
+
+```shell
+pip install -r requirements.txt
+```
+
+<p>
+Once this is done, you can run the project :
+
+- cd to scraper folder and run scraper.py
+- After run clean_data.py
+- To import the csv to the database : cd to database folder and run import_to_sqlite.py
+- To query the database via command line, cd to cli folder and run query_mlb.py
+- To build the interactive Dashboard - cd to dashboard folder and run app.py
+  Dash is running on http://127.0.0.1:8050/
+
+</p>
+
+This is an overview of the Dashboard:
+
+![App Screenshot](<image/newplot(1).png>)
