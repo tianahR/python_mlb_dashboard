@@ -90,4 +90,5 @@ Once this is done, you can run the project :
 
 This is an overview of the Dashboard:
 
-![App Screenshot](<image/newplot(1).png>)
+![newplot](https://github.com/user-attachments/assets/f0bcaa2f-afc2-4b9a-b1a3-891fe94b9d0e)
+
