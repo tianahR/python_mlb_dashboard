@@ -195,7 +195,7 @@ def hitting_leaders(conn):
         
         
         cursor = conn.execute("""
-        SELECT h.year, h.player, h.statistic, h.value, s.division, s.wins, s.loss
+        SELECT h.year, h.player, h.statistic, h.value, h.team, s.division, s.wins, s.loss
         FROM league_leader_hitting_stat h
         JOIN team_standing_stat s ON h.year = s.year AND h.team = s.team
         WHERE h.statistic = 'Batting Average'

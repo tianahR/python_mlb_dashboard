@@ -6,3 +6,4 @@ seaborn
 dash
 gunicorn
 sqlalchemy
+selenium
