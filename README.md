@@ -1,8 +1,9 @@
 # PYTHON_MLB_DASHBOARD - Web Scraping and Dashboard Project
 
-## ABOUT THE PROJECT 
-A Python program that retrieves data from BASEBALL ALMANAC website : https://www.baseball-almanac.com/yearmenu.shtml  and display the results in an interactive dashboard.
-The website contains the History of Major League Baseball in a Yearly Format. 
+## ABOUT THE PROJECT
+
+A Python program that retrieves data from BASEBALL ALMANAC website : https://www.baseball-almanac.com/yearmenu.shtml and display the results in an interactive dashboard.
+The website contains the History of Major League Baseball in a Yearly Format.
 
 <p>There are 289 pages to scrape. Among them, we have :
     The History of the American League From 1901 to 2025,
@@ -21,13 +22,13 @@ The website contains the History of Major League Baseball in a Yearly Format.
     Retirements / Final Season Played Lists,
     Rookies / First Season Played Lists,
     Links to Seasonal Events
-  </p>
+</p>
 
 <b>For this project</b> - I retrieve data from the history of the American League from <b>1975 to 2025</b>
 
 The project is divided into :
 
-- ### Web Scraping program : 
+- ### Web Scraping program :
     <p>To scrape data from the website, I use <b>Selenium</b>. and saved the raw data into CSV format for each dataset :
         League Leader in Hitting Statistics (Top 25),
         League Leader in Pitching Statistics (Top 25),
@@ -35,20 +36,16 @@ The project is divided into :
         Team Leader for Hitting Stats,
         Team Leader for Pitching Stats</p>
     <p>For the analysis and data visualization, I use 3 datasets : League Leader in Hitting Statistics (Top 25), League Leader in Pitching Statistics (Top 25), Final Standings for every Team</p>
-    
-- ### Database import program :  
+
+- ### Database import program :
     <p>Import the CSV files into a <b>SQLite database </b>.</p>
     <p>Before storing the data in a SQLite database, with each CSV file as a separate table, I clean and transform the raw data into a structured format.</p>
-    
-- ### Database query program :  
-    Query the database via command line.
-  
-- ### Dashboard program : 
-    Build an interactive dashboard using <b>Dash</b> to display the insights.
+
+- ### Database query program :
+  Query the database via command line.
+- ### Dashboard program :
+  Build an interactive dashboard using <b>Dash</b> to display the insights.
 
 ## TECH STACK USED :
-  <p>Python, SQLITE, Selenium, Numpy, Pandas, Matplotlib, plotly, Seaborn, Dash</p>
-    
 
-  
-      
+  <p>Python, SQLITE, Selenium, Numpy, Pandas, Matplotlib, Plotly, Seaborn, Dash</p>
