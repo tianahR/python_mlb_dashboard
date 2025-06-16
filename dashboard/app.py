@@ -95,39 +95,49 @@ app.title = "MLB Baseball Dashboard"
 
 # App layout
 app.layout = html.Div([
-    html.H1("MLB Baseball Dashboard - American League 1975-2025", style={"textAlign": "center"}),
+    html.H1("MLB Baseball Dashboard - American League 1975-2025",   style={'textAlign': 'center', 'marginBottom': '40px',}),
 
+    
     html.Div([
-        html.Label("Select Year:"),
+        html.Label("Select Year:", className="label"),
         dcc.Dropdown(
             id='year-dropdown',
             options=[{'label': str(y), 'value': y} for y in get_years()],
-            value=get_years()[0]
-        )
-    ], style={'width': '10%', 'display': 'inline-block'}),
+            value=get_years()[0],
+             clearable=False,
+        className="dropdown"
+            )
+        ], className="control"),
 
     html.Div([
-        html.Label("Minimum Value Threshold:"),
-        dcc.Slider(id='value-slider', min=0, max=100, step=1, value=10,
-                   marks={i: str(i) for i in range(0, 101, 20)})
-    ], style={'width': '48%', 'float': 'right', 'display': 'inline-block'}),
+        html.Label("Minimum Value Threshold:", className="label"),
+        dcc.Slider(id='value-slider', min=0, max=100, step=5, value=0,
+                   marks={i: str(i) for i in range(0, 101, 20)},
+                tooltip={"placement": "bottom", "always_visible": True},
+                className='slider'
+            )
+       ], className="control slider-control"),
+    # ], className="control-row"),
     
-    dcc.Tabs(
-        id="tabs",
-        value=divisions[0],  # Default tab 
-        children=[
+
+    html.Div([
+        dcc.Tabs(id="tabs", value = divisions[0],
+            
+            children=[
             dcc.Tab(label=division, value=division) for division in divisions
-        ],style={'width': '40%', 'display': 'inline-block'}),
-    
+        ])
+    ], className = 'dash-tab'),
 
-    dcc.Graph(id='hitting-leader-chart'),
-    dcc.Graph(id='pitching-leader-chart'),
-    dcc.Graph(id='win-pie-chart'),
-    dcc.Graph(id='team-trend-line-chart'),
-    dcc.Graph(id="division-chart"),
-    
+    html.Div(id='graph-container', children=[
+            
+            dcc.Graph(id='hitting-leader-chart'),
+            dcc.Graph(id='pitching-leader-chart'),
+            dcc.Graph(id='win-pie-chart'),
+            dcc.Graph(id='team-trend-line-chart'),
+            dcc.Graph(id="division-chart"),
+        ], style={'padding': '0 30px'})
+    ]),
 
-])
 
 # Callbacks to update graph
 @app.callback(
@@ -189,6 +199,7 @@ def update_charts(year, threshold,selected_division):
         markers=True,
         title=f"Team Wins Over Time - {selected_division} Division"
     )
+    
     fig_div.update_layout(transition_duration=300)
 
     return fig_hit, fig_pitch, fig_pie,fig_line,fig_div
