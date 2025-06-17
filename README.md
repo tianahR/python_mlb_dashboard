@@ -52,6 +52,10 @@ The project is divided into :
 
   <p>Python, SQLITE, Selenium, Numpy, Pandas, Matplotlib, Plotly, Seaborn, Dash</p>
 
+## PROGRAM STRUCTURE : 
+![project_structure](https://github.com/user-attachments/assets/27fde793-e74f-40a4-91bb-3d5b70c3e48b)
+
+
 ## STEPS TO RUN THE PROGRAM :
 
 - Clone the program
@@ -88,7 +92,7 @@ Once this is done, you can run the project :
 
 </p>
 
-## Some screenshots of images in the Dashboard
+## SOME SCREENSHOTS OF IMAGES IN THE DASHBOARD
 
 ![newplot](https://github.com/user-attachments/assets/f0bcaa2f-afc2-4b9a-b1a3-891fe94b9d0e)
 ![newplot (1)](https://github.com/user-attachments/assets/b36e04ec-732d-498c-8dfe-71304ffef37c)
