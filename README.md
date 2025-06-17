@@ -88,7 +88,11 @@ Once this is done, you can run the project :
 
 </p>
 
-This is an overview of the Dashboard:
+## Some screenshots of images in the Dashboard
 
-![newplot](https://github.com/user-attachments/assets/f0bcaa2f-afc2-4b9a-b1a3-891fe94b9d0e)
+![newplot](https://github.com/user-attachments/assets/f0bcaa2f-afc2-4b9a-b1a3-891fe94b9d0e)![newplot (1)](https://github.com/user-attachments/assets/b36e04ec-732d-498c-8dfe-71304ffef37c)
+![newplot (2)](https://github.com/user-attachments/assets/c73e758f-7392-4667-a83d-3114ca6ca5b0)
+![newplot (3)](https://github.com/user-attachments/assets/477a11c1-8d6b-4ec7-925e-11336239891d)
+![newplot (4)](https://github.com/user-attachments/assets/265cc603-1879-42e4-806e-2d2a839ceb41)
+
 
