@@ -1,5 +1,7 @@
 # PYTHON_MLB_DASHBOARD - Web Scraping and Dashboard Project
 
+This repository contains my capstone project where I implementer a complete data pipeline. I applied skills in data analysis and visualization to explore cleaned data, create meaningful visualizations, and present insights effectively.
+
 ## ABOUT THE PROJECT
 
 A Python program that retrieves data from BASEBALL ALMANAC website : https://www.baseball-almanac.com/yearmenu.shtml and display the results in an interactive dashboard.
@@ -26,7 +28,13 @@ The website contains the History of Major League Baseball in a Yearly Format.
 
 <b>For this project</b> - I retrieve data from the history of the American League from <b>1975 to 2025</b>
 
-The project is divided into :
+## PROJECT TOPICS
+
+**Data Analysis: ** Using Pandas to analyze cleaned datasets.
+**Data Visualization: ** Creating interactive and clear visualizations to highlight key findings.
+**Presentation: ** Delivering a comprehensive project including code, analysis, and visualizations.
+
+## PROJECT COMPONENTS
 
 - ### Web Scraping program :
 
