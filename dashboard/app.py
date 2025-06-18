@@ -8,7 +8,18 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-DB_PATH = os.getenv("DB_PATH", "/etc/secrets/baseball_stat.db")
+
+# DB_PATH = os.getenv("DB_PATH", "/etc/secrets/baseball_stat.db")
+
+# LOCAL_DB_PATH = "baseball_stat.db"
+# LOCAL_DB_PATH="../db/baseball_stat.db"
+# RENDER_DB_PATH = "/etc/secrets/baseball_stat.db"
+LOCAL_DB_PATH=os.getenv("LOCAL_DB_PATH")
+RENDER_DB_PATH =os.getenv("RENDER_DB_PATH")
+
+DB_PATH = RENDER_DB_PATH if os.path.exists(RENDER_DB_PATH) else LOCAL_DB_PATH
+
+# conn = sqlite3.connect(DB_PATH, check_same_thread=False)
 
 # Connect to SQLite DB
 
@@ -89,13 +100,27 @@ def get_years():
     except Exception as e:
         print(f'Error occured as {e}')
     conn.close()
+    
+    
+try:
+    
+    conn = sqlite3.connect(f'file:{DB_PATH}?mode=ro', uri=True, check_same_thread=False)
+    cursor = conn.cursor()
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+    tables = cursor.fetchall()
+    print("Tables found:", tables)
+except Exception as e:
+    print("Database error:", e)
+    raise
 
 all_team_standings = fetch_team_standing()
-divisions = all_team_standings['division'].unique()
+if all_team_standings is not None:
+    divisions = all_team_standings['division'].unique()
 
 # Initialize Dash app
 app = dash.Dash(__name__)
 server = app.server  # deploy to render.com
+
 
 app.title = "MLB Baseball Dashboard"
 
