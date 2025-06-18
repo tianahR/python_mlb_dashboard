@@ -7,3 +7,4 @@ dash
 gunicorn
 sqlalchemy
 selenium
+dotenv
