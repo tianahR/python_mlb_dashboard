@@ -7,4 +7,4 @@ dash
 gunicorn
 sqlalchemy
 selenium
-dotenv
+python-dotenv
