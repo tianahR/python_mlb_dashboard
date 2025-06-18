@@ -3,13 +3,19 @@ import pandas as pd
 import dash
 from dash import dcc, html, Input, Output
 import plotly.express as px
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+DB_PATH = os.getenv("DB_PATH", "/etc/secrets/baseball_stat.db")
 
 # Connect to SQLite DB
 
 def fetch_data(year):
     
     try:
-        with sqlite3.connect("../db/baseball_stat.db") as conn:
+        with sqlite3.connect(DB_PATH) as conn:
             
             hitting = pd.read_sql_query("""
             SELECT h.year, h.player, h.statistic, h.value, h.team, s.division, s.wins, s.loss 
@@ -45,7 +51,7 @@ def fetch_data(year):
 def fetch_standings_all_years():
     try:
         
-        with sqlite3.connect("../db/baseball_stat.db") as conn:
+        with sqlite3.connect(DB_PATH) as conn:
             all_standings = pd.read_sql_query("""
                 SELECT team, year, wins, loss,
                     ROUND(CAST(wins AS FLOAT) / (wins + loss), 3) AS win_pct
@@ -61,7 +67,7 @@ def fetch_standings_all_years():
 # Group Teams by Division with Tabs in Dash
 def fetch_team_standing() :
     try:
-        with sqlite3.connect("../db/baseball_stat.db") as conn:
+        with sqlite3.connect(DB_PATH) as conn:
             all_team_standings = pd.read_sql_query("SELECT * FROM team_standing_stat", conn)
         return all_team_standings
         
@@ -76,7 +82,7 @@ def fetch_team_standing() :
 # Load available years
 def get_years():
     try:
-        with sqlite3.connect("../db/baseball_stat.db") as conn:
+        with sqlite3.connect(DB_PATH) as conn:
             sql_statement = "SELECT DISTINCT year FROM team_standing_stat ORDER BY year"
             years = pd.read_sql_query(sql_statement, conn)
             return years['year'].tolist()
@@ -89,7 +95,7 @@ divisions = all_team_standings['division'].unique()
 
 # Initialize Dash app
 app = dash.Dash(__name__)
-server = app.server  # ploy to render.com
+server = app.server  # deploy to render.com
 
 app.title = "MLB Baseball Dashboard"
 
