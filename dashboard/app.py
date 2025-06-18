@@ -77,13 +77,27 @@ def fetch_standings_all_years():
     
 # Group Teams by Division with Tabs in Dash
 def fetch_team_standing() :
+    
     try:
-        with sqlite3.connect(DB_PATH) as conn:
-            all_team_standings = pd.read_sql_query("SELECT * FROM team_standing_stat", conn)
-        return all_team_standings
+    
+        conn = sqlite3.connect(f'file:{DB_PATH}?mode=ro', uri=True, check_same_thread=False)
+        cursor = conn.cursor()
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+        tables = cursor.fetchall()
+        print("Tables found:", tables)
         
+        all_team_standings = pd.read_sql_query("SELECT * FROM team_standing_stat", conn)
+        return all_team_standings
     except Exception as e:
-        print(f'Error occured as {e}')  
+        print("Database error:", e)
+        raise
+    # try:
+    #     with sqlite3.connect(DB_PATH) as conn:
+        # all_team_standings = pd.read_sql_query("SELECT * FROM team_standing_stat", conn)
+        # return all_team_standings
+        
+    # except Exception as e:
+    #     print(f'Error occured as {e}')  
     
     
 
