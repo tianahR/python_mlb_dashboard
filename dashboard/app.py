@@ -82,7 +82,7 @@ def get_years():
             return years['year'].tolist()
     except Exception as e:
         print(f'Error occured as {e}')
-    conn.close()
+    # conn.close()
     
 
 all_team_standings = fetch_team_standing()
