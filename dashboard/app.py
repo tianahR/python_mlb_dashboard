@@ -3,31 +3,12 @@ import pandas as pd
 import dash
 from dash import dcc, html, Input, Output
 import plotly.express as px
-import os
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
-# DB_PATH = os.getenv("DB_PATH", "/etc/secrets/baseball_stat.db")
-
-# LOCAL_DB_PATH = "baseball_stat.db"
-# LOCAL_DB_PATH="../db/baseball_stat.db"
-# RENDER_DB_PATH = "/etc/secrets/baseball_stat.db"
-LOCAL_DB_PATH=os.getenv("LOCAL_DB_PATH")
-# print(LOCAL_DB_PATH)
-RENDER_DB_PATH =os.getenv("RENDER_DB_PATH")
-
-DB_PATH = RENDER_DB_PATH if os.path.exists(RENDER_DB_PATH) else LOCAL_DB_PATH
-
-# conn = sqlite3.connect(DB_PATH, check_same_thread=False)
-
-# Connect to SQLite DB
 
 def fetch_data(year):
     
     try:
-        with sqlite3.connect(DB_PATH) as conn:
+        with sqlite3.connect("../db/baseball_stat.db") as conn:
             
             hitting = pd.read_sql_query("""
             SELECT h.year, h.player, h.statistic, h.value, h.team, s.division, s.wins, s.loss 
@@ -82,35 +63,20 @@ def fetch_team_standing() :
     
     try:
     
-        # conn = sqlite3.connect(f'file:{DB_PATH}?mode=ro', uri=True, check_same_thread=False)
-        # cursor = conn.cursor()
-        # cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
-        # tables = cursor.fetchall()
-        # print("Tables found:", tables)
-        with sqlite3.connect(DB_PATH) as conn:
+       
+        with sqlite3.connect("../db/baseball_stat.db") as conn:
         
             all_team_standings = pd.read_sql_query("SELECT * FROM team_standing_stat", conn)
             return all_team_standings
     except Exception as e:
         print("Database error:", e)
-        raise
-    # try:
-    #     with sqlite3.connect(DB_PATH) as conn:
-        # all_team_standings = pd.read_sql_query("SELECT * FROM team_standing_stat", conn)
-        # return all_team_standings
-        
-    # except Exception as e:
-    #     print(f'Error occured as {e}')  
+          
     
-    
-
-
-
 
 # Load available years
 def get_years():
     try:
-        with sqlite3.connect(DB_PATH) as conn:
+        with sqlite3.connect("../db/baseball_stat.db") as conn:
             sql_statement = "SELECT DISTINCT year FROM team_standing_stat ORDER BY year"
             years = pd.read_sql_query(sql_statement, conn)
             return years['year'].tolist()
@@ -118,17 +84,6 @@ def get_years():
         print(f'Error occured as {e}')
     conn.close()
     
-    
-# try:
-    
-#     conn = sqlite3.connect(f'file:{DB_PATH}?mode=ro', uri=True, check_same_thread=False)
-#     cursor = conn.cursor()
-#     cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
-#     tables = cursor.fetchall()
-#     print("Tables found:", tables)
-# except Exception as e:
-#     print("Database error:", e)
-#     raise
 
 all_team_standings = fetch_team_standing()
 if all_team_standings is not None:
