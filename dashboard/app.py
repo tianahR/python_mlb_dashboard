@@ -15,6 +15,7 @@ load_dotenv()
 # LOCAL_DB_PATH="../db/baseball_stat.db"
 # RENDER_DB_PATH = "/etc/secrets/baseball_stat.db"
 LOCAL_DB_PATH=os.getenv("LOCAL_DB_PATH")
+# print(LOCAL_DB_PATH)
 RENDER_DB_PATH =os.getenv("RENDER_DB_PATH")
 
 DB_PATH = RENDER_DB_PATH if os.path.exists(RENDER_DB_PATH) else LOCAL_DB_PATH
@@ -62,7 +63,8 @@ def fetch_data(year):
 def fetch_standings_all_years():
     try:
         
-        with sqlite3.connect(DB_PATH) as conn:
+        # with sqlite3.connect(DB_PATH) as conn:
+        with sqlite3.connect("../db/baseball_stat.db") as conn:
             all_standings = pd.read_sql_query("""
                 SELECT team, year, wins, loss,
                     ROUND(CAST(wins AS FLOAT) / (wins + loss), 3) AS win_pct
