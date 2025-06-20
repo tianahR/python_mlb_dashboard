@@ -2,6 +2,8 @@
 
 This repository contains my capstone project where I implementer a complete data pipeline. I applied skills in data analysis and visualization to explore cleaned data, create meaningful visualizations, and present insights effectively.
 
+DEPLOYED ON https://python-mlb-dashboard-10.onrender.com/
+
 ## ABOUT THE PROJECT
 
 A Python program that retrieves data from BASEBALL ALMANAC website : https://www.baseball-almanac.com/yearmenu.shtml and display the results in an interactive dashboard.
