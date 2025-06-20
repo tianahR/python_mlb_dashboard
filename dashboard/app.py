@@ -80,14 +80,15 @@ def fetch_team_standing() :
     
     try:
     
-        conn = sqlite3.connect(f'file:{DB_PATH}?mode=ro', uri=True, check_same_thread=False)
-        cursor = conn.cursor()
-        cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
-        tables = cursor.fetchall()
-        print("Tables found:", tables)
+        # conn = sqlite3.connect(f'file:{DB_PATH}?mode=ro', uri=True, check_same_thread=False)
+        # cursor = conn.cursor()
+        # cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+        # tables = cursor.fetchall()
+        # print("Tables found:", tables)
+        with sqlite3.connect(DB_PATH) as conn:
         
-        all_team_standings = pd.read_sql_query("SELECT * FROM team_standing_stat", conn)
-        return all_team_standings
+            all_team_standings = pd.read_sql_query("SELECT * FROM team_standing_stat", conn)
+            return all_team_standings
     except Exception as e:
         print("Database error:", e)
         raise
@@ -116,16 +117,16 @@ def get_years():
     conn.close()
     
     
-try:
+# try:
     
-    conn = sqlite3.connect(f'file:{DB_PATH}?mode=ro', uri=True, check_same_thread=False)
-    cursor = conn.cursor()
-    cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
-    tables = cursor.fetchall()
-    print("Tables found:", tables)
-except Exception as e:
-    print("Database error:", e)
-    raise
+#     conn = sqlite3.connect(f'file:{DB_PATH}?mode=ro', uri=True, check_same_thread=False)
+#     cursor = conn.cursor()
+#     cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+#     tables = cursor.fetchall()
+#     print("Tables found:", tables)
+# except Exception as e:
+#     print("Database error:", e)
+#     raise
 
 all_team_standings = fetch_team_standing()
 if all_team_standings is not None:
